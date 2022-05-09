@@ -1,0 +1,9 @@
+DFS Algorithm
+o Step 1: SET STATUS = 1 (ready state) for each node in G
+o Step 2: Push the starting node A on the stack and set its STATUS = 2 (waiting state)
+o Step 3: Repeat Steps 4 and 5 until STACK is empty
+o Step 4: Pop the top node N. Process it and set its STATUS = 3 (processed state)
+o Step 5: Push on the stack all the neighbours of N that are in the ready state (whose STATUS= 1)and set their
+STATUS=2(waitingstate)
+[END OF LOOP]
+o Step 6: EXIT 
